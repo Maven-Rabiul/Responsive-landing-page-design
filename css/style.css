@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+}
+
+.main-bg{
+    background-image: url(../media/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    padding: 28px 20px 20px 20px;
+}
+
+a{
+    text-decoration: none;
+ font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
