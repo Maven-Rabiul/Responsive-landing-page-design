@@ -66,6 +66,45 @@ a{
     font-weight: 500;
 }
 
+/*Services CSS*/
+.service-area{
+    padding-top: 40px;
+    padding-bottom: 140px;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-gap: 25px;
+}
+.single-service{
+    padding: 40px;
+    box-shadow: 0px 30px 60px 0px #3939390d;
+    border-radius: 8px;
+}
+
+.single-service img{
+  margin-bottom: 5px;
+}
+.single-service h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #262626;
+    margin-bottom:18px;
+}
+.single-service p{
+    margin-bottom: 14px;
+    color: #262626;
+    font-size: 16px;
+}
+.single-service a{
+    color: #E668B3;
+    font-weight: 600;
+    font-size: 16px;
+    display: inline-block;
+
+
+}
+
+
 
 
 
