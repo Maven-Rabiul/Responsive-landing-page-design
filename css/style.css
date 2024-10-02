@@ -122,7 +122,35 @@ a{
     color: #343F52;
 }
 
+.choose-container{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap: 30px;
+}
 
+.single-choose-box{
+    padding: 25px 25px;
+    border-radius: 8px;
+    box-shadow: 10px 30px 60px 40px #3939390d;
+    display: flex;
+}
+
+.single-choose-box img {
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+}
+.single-choose-box h4{
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 12px;
+    color: #343F52;
+}
+.single-choose-box p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #60697B;
+}
 
 
 
