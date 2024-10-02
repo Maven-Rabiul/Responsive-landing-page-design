@@ -24,7 +24,7 @@ body{
 }
 .navbar ul{
     display: flex;
-    list-style: none;
+
 }
 .navbar ul li{
     padding: 28px 20px 20px 20px;
@@ -32,7 +32,10 @@ body{
 
 a{
     text-decoration: none;
- font-size: 20px;
+    font-size: 20px;
+}
+ul {
+    list-style-type: none;
 }
 
 .banner{
@@ -152,6 +155,38 @@ a{
     color: #60697B;
 }
 
+.choose-bottom{
+    display: flex;
+    padding-bottom:140px;
+}
+.choose-box{
+    padding:  25px;
+}
+
+.choose-box h3 {
+    font-size: 27px;
+    line-height: 36px;
+    color: #343F52;
+    margin-bottom: 20px;
+}
+.choose-box p {
+    font-size: 17px;
+    line-height: 25px;
+    color: #60697B;
+    margin-bottom: 25px;
+}
+.choose-box ul li{
+    margin-bottom: 8px;
+}
+.choose-img{
+    heigth: 20px;
+    width: 20px;
+    background-color:#fbe4f1 ;
+    border-radius: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+}
 
 
 
